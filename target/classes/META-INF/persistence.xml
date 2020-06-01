@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+    <persistence-unit name="persistence-data">
+        <class>com.trung.nghia.entity.NewEntity</class>
+        <class>com.trung.nghia.entity.RoleEntity</class>
+        <class>com.trung.nghia.entity.UserEntity</class>
+        <class>com.trung.nghia.entity.BaseEntity</class>
+        <class>com.trung.nghia.entity.CategoryEntity</class>
+
+    </persistence-unit>
+</persistence>
